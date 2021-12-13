@@ -12,7 +12,7 @@ const Me = ({ me }) => {
         <div style={{ maxHeight: '35vh', overflow: 'auto' }}>
             { key ?
                 <>
-                    <p><b>Hola!</b> { me[0].response ? `me llamo` : ''} <b>{me[0].response ? 'Roy!' : ''}</b>, {me[1].response ? 'tengo 12 años' : ''} </p>
+                    <p><b>Hola!</b> { me[0].response ? `me llamo` : ''} <b>{me[0].response ? 'Roy!' : ''}</b> {me[1].response ? ',tengo 12 años' : ''} </p>
                     {
                         me[2].response ?
                         (

@@ -1,0 +1,13 @@
+.quest {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.quest form input {
+    color: #fff;
+    background: transparent;
+    border: none;
+    outline: none;
+    margin-left: 10px;
+}
